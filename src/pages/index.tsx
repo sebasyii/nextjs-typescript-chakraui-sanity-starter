@@ -1,3 +1,4 @@
+import FooterWithSocialIcons from "@/components/FooterWithSocialIcons";
 import { Button, Heading, Select } from "@chakra-ui/react";
 import React from "react";
 
@@ -8,6 +9,7 @@ const Home = () => {
     <>
       <Button onClick={() => setCount(count + 1)}>Submit</Button>
       <Heading>Hello</Heading>
+      <FooterWithSocialIcons />
     </>
   );
 };
